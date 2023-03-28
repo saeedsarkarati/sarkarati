@@ -7,8 +7,8 @@ red = (255, 0, 0)
 blue = (0, 0, 255)
 white = (255, 255, 255)
 # -----------------
-x = 10; y = 10 ; l = 650
-for i in range (1000000):
+x = 10; y = 10 ; l = 500
+for i in range (100000):
 	sc.set_at( (int(x), int(y) ), red )
 	r = random.randint(0, 2)
 	# ~ print (r)
