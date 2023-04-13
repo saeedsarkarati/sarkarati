@@ -1,7 +1,11 @@
 a = []
-for i in range(3,131801,2):
+a.append(3)
+a.append(5)
+for i in range(7,1333333,2):
 	n = i
 	while n > 1:
+		if n < i:
+			break
 		if n in a:
 			break
 		if n%2 == 1:
@@ -13,4 +17,4 @@ for i in range(3,131801,2):
 			n =3 * n + 1
 	# ~ if (i+1) % 40000 == 0:
 		# ~ print (i, a, len(a))
-	print(n)
+	print(i)
